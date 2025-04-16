@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../public/dua_logo.png'
+import logo from '../assets/dua_logo.png'
 import {
   Home,
   LayoutGrid,

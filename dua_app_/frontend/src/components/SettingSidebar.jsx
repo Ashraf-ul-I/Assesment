@@ -8,7 +8,7 @@ import {
 const SettingSidebar = () => {
     
   return (
-    <div className="w-[15%] h-[70%] mt-10 bg-white rounded-md p-4 shadow">
+    <div className="h-[70%] mt-10 bg-white rounded-md p-4 shadow">
       <h2 className="font-semibold text-center mb-4">Settings</h2>
 
       <div className="flex flex-col gap-2">
@@ -36,7 +36,7 @@ const SettingSidebar = () => {
 };
 
 const SettingItem = ({ icon, label }) => (
-  <div className="flex items-center bg-gray-100 rounded-md p-2">
+  <div className="flex items-center bg-gray-100 rounded-md p-2 mb-8">
     <div className="mr-2">{icon}</div>
     <span className="text-sm text-gray-600">{label}</span>
   </div>

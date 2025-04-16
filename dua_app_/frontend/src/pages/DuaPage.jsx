@@ -45,9 +45,10 @@ const DuaPage = () => {
       </div>
 
       {/* Settings Sidebar */}
-      <div className="w-[80px] flex-shrink-0">
+     <div className=" w-[15%]flex-shrink-0">
         <SettingSidebar />
-      </div>
+     </div>
+
     </div>
   )
 }
